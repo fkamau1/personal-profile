@@ -149,8 +149,8 @@ button:hover{
     min-height: 400px;
 }
 .card{
-    height: 650px;
-    width: 400px;
+    height: 350px;
+    width: 70%;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
