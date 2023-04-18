@@ -4,15 +4,17 @@
     font-family:'Josefin Sans', sans-serif;
     box-sizing: border-box;
 } 
+
 .mainpage{
     height: 100vh;
     width: 100%;
-    background-image: url(images/Fred.jpg);
+    background-image: url(../assets/Fred.jpg);
     background-size:auto;
     background-repeat: no-repeat;
     background-position:right;
     background-color: black;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -21,30 +23,40 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
+
 .titleword{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
     cursor: pointer;
 }
+
+ul{
+    font-size: 20px;
+}
+
 span{
     color: blueviolet;
 }
+
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
+
 nav ul li a{
     color: blueviolet;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;    
 }
+
 nav ul li a:hover{
     color: white;
     transition: .4s;
 }
+
 .button{
     background-color: blueviolet;
     color: white;
@@ -55,68 +67,135 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
+
 .button:hover{
     transform: scale(1.2);
 }
+
 .content{
     position: absolute;
     top:50%;
     left:8%;
     transform: translateY(-50%);
 }
+
 h1{
     color: blueviolet;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
+
 h3{
     color: white;
     margin: 20px 0px 20px;
     font-size: 45px;
 }
-.about{
-    width: 100%;
-    padding: 100px 0px;
-    background-color:blueviolet;
-}
-.about img{
-    height: auto;
-    width: 430px;
-}
-.about-text{
-    width: 550px;
-}
+
 .main{
-    width: 1130px;
+    width: 100%;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items:center;
     justify-content: space-around;
 }
-.about-text h2{
+
+.resume{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: white;
+}
+
+.resume img{
+    height: auto;
+    width: 30%;
+}
+
+.resume .titleword{
+    color: black;    
+}
+
+.resume-text{
+    width: 60%;
+}
+
+.resume-text h2{
     color:black;
-    font-size: 75px;
+    margin-top: 10px;
+    font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
-.about-text h5{
+
+.resume-text h5{
     color: black;
-    letter-spacing: 2px;
-    font-size: 22px;
+    letter-spacing: 1px;
+    font-size: 20px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-.about-text p{
+
+.resume-text p{
     color: black;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
+
+.resume-text ol{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.resume nav ul li a:hover{
+    color: black;
+    transition: .4s;
+}
+
+.hobbies{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: white;
+}
+
+.hobbies img{
+    height: auto;
+    width: 50%;
+}
+
+.hobbies .titleword{
+    color: black;    
+}
+
+.hobbies-text h2{
+    color:black;
+    font-size: 50px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.hobbies-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+}
+
+.hobbies nav ul li a:hover{
+    color: black;
+    transition: .4s;
+}
+
 button{
-    background-color: black;
-    color: white;
+    background-color: blueviolet;
+    color: black;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -127,14 +206,9 @@ button{
 button:hover{
     background-color: transparent;
     border: 2px solid black;
-    cursor: pointer;
+    cursor: pointer;    
 }
-.hobbies{
-    background: #101010;
-    width: 100%;
-    padding: 100px 0px;   
 
-}
 .title h2{
     color: white;
     font-size: 75px;
@@ -142,12 +216,14 @@ button:hover{
     margin: 30px auto;
     text-align: center;
 }
+
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
 }
+
 .card{
     height: 350px;
     width: 70%;
@@ -159,6 +235,7 @@ button:hover{
     overflow: hidden;
     text-align: center;
 }
+
 .card i{
     font-size: 50px;
     display: block;
@@ -166,11 +243,13 @@ button:hover{
     margin: 25px 0px;
     color: #f9004d;
 }
+
 h5{
     color: white;
     font-size: 23px;
     margin-bottom: 15px;
 }
+
 .pra p{
     color: #fcfc;
     font-size: 16px;
